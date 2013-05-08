@@ -1,0 +1,19 @@
+.sellItemTable .op {
+  width: 40px;
+}
+.sellItemTable .count,
+.sellItemTable .price,
+.sellItemTable .size {
+  width: 80px;
+}
+.sellItemTable .auxiliaryCount,
+.sellItemTable .priceTotal {
+  width: 120px;
+}
+.sellItemTable .remove {
+  background: url("../images/remove.png") no-repeat center;
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: #808080;
+}

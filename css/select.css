@@ -1,0 +1,27 @@
+.selectItemTable {
+  width: 600px;
+  position: fixed;
+  left: 50%;
+  margin-left: -300px;
+  top: 100px;
+  background-color: #fff;
+  z-index: 99;
+  display: none;
+}
+.selectItemTable td {
+  cursor: pointer;
+}
+.selectItemTable .op {
+  width: 40px;
+}
+.selectItemTable .size {
+  width: 80px;
+}
+.selectItemTable .check {
+  height: 100%;
+  display: block;
+  background: url("../images/notchecked.png") no-repeat center;
+}
+.selectItemTable .check.selected {
+  background-image: url("../images/checked.png");
+}
